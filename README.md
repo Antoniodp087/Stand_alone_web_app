@@ -16,6 +16,12 @@ npm install --save-dev axios@1.6.7\
 npm install --save-dev reflect-metadata@0.2.1\
 
 
+script to add\
+"json": "json-server data.js -p 4600",\
+        "wds": "webpack-dev-server",\
+        "start": "npm-run-all -p json wds"\
+
+
 npm install --save-dev express@4.18.2
 npx webpack --mode "production"
 npx webpack
